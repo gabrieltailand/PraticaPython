@@ -11,7 +11,7 @@ tabela = ('Atlético-MG', 'Flamengo', 'Palmeiras', 'Bragantino', 'Cotinthias', '
 import random
 print(f'\033[34mOs cincos primeiros colocados são:\033[m {tabela[0:5]}')
 print('-' * 105)
-print(f'\033[34mO ultimos quatro colocados são:\033[m {tabela[16:]}')
+print(f'\033[34mOs ultimos quatro colocados são:\033[m {tabela[16:]}')
 print('-' * 105)
 ordem = sorted(tabela)
 print(f'\033[34mOs times em ordem alfabética são:\033[m\n{ordem}')
