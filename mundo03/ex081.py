@@ -10,7 +10,7 @@ while True:
     resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     if resp not in 'SN':
         print('\033[1;31mOpção inválida!\033[m')
-
+        resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
     if resp in 'Nn':
         break
 print('-' * 30)
