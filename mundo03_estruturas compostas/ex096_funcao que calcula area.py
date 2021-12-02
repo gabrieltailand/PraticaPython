@@ -3,6 +3,12 @@
 
 # Função área
 def area(largura, comprimento):
+    """
+    -> Faz a operação de multiplicação e mostra na tela
+    :param largura: informa a largura
+    :param comprimento: informa o comprimento
+    :return: sem retorno
+    """
     a = largura * comprimento
     print('-' *30)
     print(f'A área é {a}m²')
