@@ -1,0 +1,28 @@
+Interactive Help:
+função interna:
+	help()
+	print(input.__doc__)
+
+docstrings:
+Uma string de documentação.
+	"""
+	"""
+
+Argumentos opcionais:
+	def somar(a=0, b=0, c=0):
+		s = a+b+c
+		print(f'A soma vale {s}')
+	
+	somar(3,2,5)
+	somar(8,4)
+	somar()
+
+Escopo de variáveis:
+É o local onde uma variável vai ou não existir.
+
+Retorno de resultados:
+
+Banco J.P Morgan S.A
+Branch: 0001
+Account number: 001104210-8
+cnpj: 36.588.217/0001-01
